@@ -1,0 +1,10 @@
+{ outline: 1px dashed black} 
+
+#container1 {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header 
