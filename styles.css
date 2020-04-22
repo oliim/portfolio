@@ -90,12 +90,40 @@
 }
 
 .photography {
-    
+    grid-column: 1/3;
+    background-image: url(img/pinkearth.psd);
+    background-position: center 100;
+    background-repeat: no-repeat, repeat-x;
+    background-size: 1500px;
     height: 800px;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.photoheading {
+    grid-column: 1/6;
+    font-family: 'Shrikhand', cursive;
+    font-size: 5.0em;
+    color: #2c2e3b;
+    text-align: center;
+}
+
+.phototext {
+    grid-column: 1/6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.0em;
+    color: #2c2e3b;
+    text-align: center;
+}
+
+.gallery {
     
 }
+
+
 
